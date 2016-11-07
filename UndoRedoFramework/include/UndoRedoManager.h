@@ -4,7 +4,9 @@
 #include "UndoRedoStack.h"
 #include "Command.h"
 
-class UndoRedoManager : public virtual UndoRedoStack
+class UndoRedoManager : public
+//virtual
+UndoRedoStack
 {
 public:
 	virtual ~UndoRedoManager() = 0;

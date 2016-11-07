@@ -12,7 +12,9 @@
 
 #include <stack>
 
-class UndoRedoStackImpl : public virtual UndoRedoStack{
+class UndoRedoStackImpl : public
+//virtual
+UndoRedoStack{
 public:
 //	using SmartPointer = std::unique_ptr<Command>;
 
